@@ -10,8 +10,8 @@ public class BeforeAfterSteps {
     @Before
     public void beforeStep(){
         Driver.runDriver();
-
-
+        System.out.println("run Driver");
+        System.out.println("");
 
     }
 
