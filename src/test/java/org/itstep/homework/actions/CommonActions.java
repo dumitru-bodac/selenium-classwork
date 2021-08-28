@@ -20,6 +20,10 @@ public class CommonActions {
         action.perform();
     }
 
+    public void simpleMethod(){
+        System.out.println("New Added Method Here!!!");
+    }
+
     public void waitUntilElementDisplayed(WebElement element) {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 10);
         wait.until((ExpectedCondition<Boolean>) arg -> element.isDisplayed());
