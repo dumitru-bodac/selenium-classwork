@@ -7,5 +7,6 @@ public class NewClass {
         System.out.println("hello");
 
         System.out.println("git");
+
     }
 }
